@@ -72,16 +72,6 @@ Dependencies
 * [CircleIndicator](https://github.com/ongakuer/CircleIndicator)
 
 
-Publishing
-==========
-
-* Set proper versions in the main build script
-* Check build config fields in the main build script
-* Update text info in changelog/about/help
-* Add analytics events for new features
-* Set Android key hash on developers.facebook.com
-
-
 Developed by
 ============
 
