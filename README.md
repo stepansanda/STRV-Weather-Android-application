@@ -10,7 +10,7 @@ Features
 
 The app shows current weather and forecast based on users current location. 
 It has settings where user can set the units of temperature or distance. 
-Also user can set what kind of images want to show:
+Also user can set what kind of images wants to show:
 - Static images based on current weather (saves data usage)
 - Dynamic images loaded from Flickr API, based on current weather 
 - Dynamic images loaded from Flickr API, based on current weather and approximate location
