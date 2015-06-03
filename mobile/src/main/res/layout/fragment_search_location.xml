@@ -12,6 +12,7 @@
         android:textSize="@dimen/global_text_size_subtitle"
         android:hint="@string/input_location"
         android:padding="@dimen/global_spacing_xs"
+        android:singleLine="true"
         android:textColor="@color/global_text_accent"/>
 
     <ListView

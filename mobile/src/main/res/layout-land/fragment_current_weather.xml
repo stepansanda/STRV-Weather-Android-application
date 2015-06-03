@@ -4,11 +4,6 @@
                 android:layout_height="match_parent"
                 tools:context="cz.stepansanda.weather.android.fragment.CurrentWeatherFragment">
 
-    <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/container_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -191,5 +186,4 @@
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
-    </android.support.v4.widget.SwipeRefreshLayout>
 </RelativeLayout>
