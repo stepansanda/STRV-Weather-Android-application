@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SETTINGS -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_length_unit">Unit of length</string>
+    <string name="pref_temperature_unit">Unit of temperature</string>
+    <string name="pref_image_to_load">Main image</string>
+    <string-array name="pref_units_of_length_entries">
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="pref_units_of_length_values">
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="pref_temperature_unit_entries">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="pref_temperature_unit_values">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="pref_image_to_load_entries">
+        <item>Static (saves data transfer)</item>
+        <item>Dynamic by weather</item>
+        <item>Dynamic by weather and location</item>
+        <item>Dynamic by location</item>
+    </string-array>
+    <string-array name="pref_image_to_load_values">
+        <item>Static (saves data transfer)</item>
+        <item>Dynamic by weather</item>
+        <item>Dynamic by weather and location</item>
+        <item>Dynamic by location</item>
+    </string-array>
+    <string name="pref_temperature_unit_default_value">Celsius</string>
+    <string name="pref_length_unit_default_value">Meter</string>
+    <string name="pref_image_to_load_default_value">Dynamic by location</string>
+</resources>

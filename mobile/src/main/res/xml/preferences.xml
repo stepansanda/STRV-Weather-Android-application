@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Units of length -->
+    <ListPreference
+        android:defaultValue="@string/pref_length_unit_default_value"
+        android:dialogTitle="@string/pref_length_unit"
+        android:entries="@array/pref_units_of_length_entries"
+        android:entryValues="@array/pref_units_of_length_values"
+        android:key="pref_length_units"
+        android:summary="%s"
+        android:title="@string/pref_length_unit"/>
+    <!-- Units of temperature -->
+    <ListPreference
+        android:defaultValue="@string/pref_temperature_unit_default_value"
+        android:dialogTitle="@string/pref_temperature_unit"
+        android:entries="@array/pref_temperature_unit_values"
+        android:entryValues="@array/pref_temperature_unit_values"
+        android:key="pref_temperature_unit"
+        android:summary="%s"
+        android:title="@string/pref_temperature_unit"/>
+    <!-- Images to load -->
+    <ListPreference
+        android:defaultValue="@string/pref_image_to_load_default_value"
+        android:dialogTitle="@string/pref_image_to_load"
+        android:entries="@array/pref_image_to_load_entries"
+        android:entryValues="@array/pref_image_to_load_values"
+        android:key="pref_image_to_load"
+        android:summary="%s"
+        android:title="@string/pref_image_to_load"/>
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+final VERSION_MAJOR = 1 // max two digits
+final VERSION_MINOR = 0 // max two digits
+final VERSION_PATCH = 0 // max two digits
+final VERSION_BUILD = 0 // max three digits
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "cz.stepansanda.weather.android"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode VERSION_MAJOR * 10000000 + VERSION_MINOR * 100000 + VERSION_PATCH * 1000 + VERSION_BUILD
+        versionName "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
+    }
+
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOGS", "true"
+            buildConfigField "boolean", "DEV_API", "true"
+            versionNameSuffix "-debug"
+        }
+
+        release {
+            buildConfigField "boolean", "LOGS", "false"
+            buildConfigField "boolean", "DEV_API", "false"
+            zipAlignEnabled true
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:recyclerview-v7:22.0.0'
+    compile 'com.mcxiaoke.volley:library:1.0.+@aar'
+    compile 'com.google.code.gson:gson:2.2.+'
+    compile 'com.j256.ormlite:ormlite-core:4.23'
+    compile 'com.j256.ormlite:ormlite-android:4.45'
+    compile 'jp.wasabeef:recyclerview-animators:1.2.0@aar'
+    compile 'com.google.android.gms:play-services:7.0.0'
+    compile 'com.android.support:support-v4:22.2.0'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'com.xgc1986.android:parallaxpagertransformer:1.0.3'
+    compile 'com.siriscac:progresspageindicator:1.0.0'
+    compile 'me.relex:circleindicator:1.1.4@aar'
+}

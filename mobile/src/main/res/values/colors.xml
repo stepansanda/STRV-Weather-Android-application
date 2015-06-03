@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="global_color_primary">#2196f3</color>
+    <color name="global_color_primary_dark">#1976d2</color>
+    <color name="global_color_accent">#d2103e</color>
+    <color name="global_color_accent_dark">#a80f33</color>
+    <color name="global_selected_item">#ededed</color>
+
+
+    <color name="global_text_black">#000000</color>
+    <color name="global_text_white">#FFFFFF</color>
+    <color name="global_text_accent">#d2103e</color>
+
+    <color name="global_background_white">#FFFFFF</color>
+
+    <color name="weather_status_circle_grey_background">#808487</color>
+    <color name="weather_status_circle_blue_background">#90caf9</color>
+
+</resources>

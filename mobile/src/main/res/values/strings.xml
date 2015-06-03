@@ -1,0 +1,55 @@
+<resources>
+    <!-- LANGUAGE INDEPENDENT -->
+    <string name="app_name">STRV Weather</string>
+
+    <!-- LANGUAGE DEPENDENT -->
+    <string name="fragment_today">Today</string>
+    <string name="fragment_forecast">Forecast</string>
+    <string name="fragment_locations">Locations</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="global_parsing_error_toast">We are sorry, something wen wrong during loading new data.</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+
+    <string name="dialog_about_title">About</string>
+    <string name="dialog_about_text">Weather app made by Stepan Sanda</string>
+    <string name="dialog_gps_off_title">GPS is disabled</string>
+    <string name="dialog_gps_dialog_text">Enable GPS if you want to use your current location. Do you want to enable it now?</string>
+    <string name="dialog_remove_location_title">Remove location</string>
+    <string name="dialog_remove_location_text">Do you want to remove this location?</string>
+
+    <string name="toast_geocoder_not_implemented">Unfortunately your device does not support this feature</string>
+
+    <string-array name="wind_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+
+    <string name="on_day">on</string>
+    <string name="degree_unit">°</string>
+    <string name="wind_km_h">km/h</string>
+    <string name="wind_m_s">m/s</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="title_activity_search_location">Search location</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_location">Type location</string>
+    <string name="no_location_found">No location found</string>
+    <string name="toast_no_internet">No internet connection</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_position">Current position</string>
+
+
+</resources>

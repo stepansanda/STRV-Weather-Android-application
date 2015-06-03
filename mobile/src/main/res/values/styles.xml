@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/global_color_primary</item>
+        <item name="colorPrimaryDark">@color/global_color_primary_dark</item>
+        <item name="colorAccent">@color/global_color_accent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow</item>
+        <item name="android:textViewStyle">@style/TextAppearance.TextView.Roboto</item>
+        <item name="android:buttonStyle">@style/TextAppearance.Button.Roboto</item>
+    </style>
+
+    <style name="TextAppearance.TextView.Roboto" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextAppearance.Button.Roboto" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

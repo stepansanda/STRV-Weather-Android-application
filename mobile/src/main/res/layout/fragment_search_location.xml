@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="cz.stepansanda.weather.android.fragment.SearchLocationFragment">
+
+    <EditText
+        android:id="@+id/search_location_edit_ext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/global_text_size_subtitle"
+        android:hint="@string/input_location"
+        android:padding="@dimen/global_spacing_xs"
+        android:textColor="@color/global_text_accent"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_location_edit_ext"
+        android:dividerHeight="@dimen/global_divide_height"/>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/global_text_size_subtitle"
+        android:text="@string/no_location_found"/>
+
+</RelativeLayout>

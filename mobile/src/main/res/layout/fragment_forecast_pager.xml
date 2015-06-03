@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cz.stepansanda.weather.android.fragment.ForecastPagerFragment">
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prev_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/global_spacing_xxs"
+            android:src="@drawable/ic_arrow_accent"/>
+
+        <TextView
+            android:id="@+id/location_name_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kutna Hora"
+            android:textSize="@dimen/global_text_size_subtitle"/>
+
+        <ImageButton
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/global_spacing_xxs"
+            android:rotation="180"
+            android:src="@drawable/ic_arrow_accent"/>
+    </LinearLayout>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/pager_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pager_indicator_height"
+        android:layout_below="@+id/title_layout"
+        app:ci_drawable="@drawable/shape_circle_accent_pager_indicator_selected"
+        app:ci_drawable_unselected="@drawable/shape_circle_accent_pager_indicator_unselected"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pager_indicator"/>
+
+</RelativeLayout>

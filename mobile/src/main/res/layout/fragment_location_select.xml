@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fab="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cz.stepansanda.weather.android.fragment.LocationListFragment">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/global_text_size_subtitle"
+        android:text="@string/add_new_location"/>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/add_location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/global_spacing_xs"
+        android:src="@drawable/ic_content_add"
+        fab:fab_colorNormal="@color/global_color_accent"
+        fab:fab_colorPressed="@color/global_color_accent_dark"
+        fab:fab_colorRipple="@color/global_color_accent_dark" />
+</RelativeLayout>
