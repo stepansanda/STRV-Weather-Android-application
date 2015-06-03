@@ -19,7 +19,7 @@ Also user can set what kind of images wants to show:
 Users also can search for location and add them as favourite for future easy access. 
 
 Possible feature updates:
-- Swipe to delete favourited location
+- Swipe to delete favourited location (now is implemented as OnItemLongClickListener)
 - Touch & hold to change position of the location in the list
 - Widget
 - Add bing images and other free image services
