@@ -9,7 +9,7 @@ Features
 ========
 
 The app shows current weather and forecast based on users current location. 
-It has settings where the user can set the units of temperature or distance. 
+It has settings where user can set the units of temperature or distance. 
 Also user can set what kind of images want to show:
 - Static images based on current weather (saves data usage)
 - Dynamic images loaded from Flickr API, based on current weather 
@@ -24,26 +24,6 @@ Possible feature updates:
 - Add bing images and other free image services
 - Handle flickr unavaiable servers
 - Custom photos of various type of weather on different kind of season of the year
-
-Installation
-============
-
-
-
-Usage
-=====
-
-
-
-Documentation
-=============
-
-
-
-Changelog
-=========
-
-
 
 Building project
 ================
