@@ -15,6 +15,7 @@ Also user can set what kind of images wants to show:
 - Dynamic images loaded from Flickr API, based on current weather 
 - Dynamic images loaded from Flickr API, based on current weather and approximate location
 - Dynamic images loaded from Flickr API, based on currently selected location
+
 Users also can search for location and add them as favourite for future easy access. 
 
 Possible feature updates:
