@@ -71,18 +71,6 @@ Dependencies
 * [ParallaxPagerTransformer](https://github.com/xgc1986/ParallaxPagerTransformer)
 * [CircleIndicator](https://github.com/ongakuer/CircleIndicator)
 
-Testing
-=======
-
-* Test app on different Android versions (handset, tablet)
-* Test overdraws
-* Test offline/empty/progress states
-* Test migration from old version to the new one
-* Test slow internet connection
-* Test reboot (boot receivers, alarms, services)
-* Test analytics tracking
-* Monkey test (fast clicking, changing orientation)
-
 
 Publishing
 ==========
