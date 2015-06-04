@@ -2,7 +2,7 @@
 This is the simple Android weather app that shows current weather and forecast from openweathermap.org. It was developed as part of the interview process.
 
 Screenshots:
-[Screenshots](https://goo.gl/photos/w2VXavRbvC1eSLJ99)
+[Screenshots](https://goo.gl/photos/RYxw83L3yv3v2grKA)
 
 
 Features
